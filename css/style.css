@@ -1,0 +1,59 @@
+.outer-div {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header {
+  overflow: auto;
+}
+#logo-div {
+  width: 50%;
+  float: left;
+}
+#logo-div img {
+  float: left;
+  margin-right: 8px;
+}
+
+#header-p1 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+#header-p2 {
+  margin-top: 2px;
+  color:gray;
+}
+#icon-div {
+  width: 50%;
+  float: right;
+
+}
+#icon-ul ul {
+  margin-top: 3px;
+ 
+}
+#icon-ul li{
+  list-style: none;
+  float: right; 
+  margin-right:2px;
+
+}
+#icon-ul li:nth-child(3){
+  margin-right: 8px;
+}
+
+h1 {
+  font-size: 40px;
+}
+h5 {
+  color: gray;
+}
+
+#print {
+  color: gray;
+}
+
