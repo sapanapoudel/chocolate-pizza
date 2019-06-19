@@ -1,0 +1,72 @@
+.outer-div {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header {
+  overflow: auto;
+  width: 100%;
+  border-bottom: 10px solid transparent;
+  padding: 15px;
+  border-image: url(/img/hr-img.png) 50 round;
+}
+#logo-div {
+  width: 50%;
+  float: left;
+}
+#logo-div img {
+  float: left;
+  margin-right: 8px;
+}
+
+#header-p1 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+#header-p2 {
+  margin-top: 2px;
+  color:gray;
+}
+#icon-div {
+  width: 50%;
+  float: right;
+
+}
+#icon-ul ul {
+  margin-top: 3px;
+ 
+}
+#icon-ul li{
+  list-style: none;
+  float: right; 
+  margin-right:2px;
+
+}
+#icon-ul li:nth-child(3){
+  margin-right: 8px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top:15px;
+  margin-bottom: 0px;
+}
+h5 {
+  color: gray;
+  margin-top:5px;
+  width: 50%;
+  float: left;
+}
+
+#print {
+  color: gray;
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-top: 5px;
+}
+
