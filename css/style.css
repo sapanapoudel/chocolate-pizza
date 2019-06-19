@@ -70,3 +70,66 @@ h5 {
   margin-top: 5px;
 }
 
+article p {
+  text-indent: 25px; 
+  font-size: 20px;
+  color: gray;
+}
+
+#ingredients {
+  box-sizing: border-box;
+  width: 899px;
+  height: 305px;
+  background-image: url("/img/list-bg.png");
+  padding: 50px;
+  background-repeat: no-repeat;
+}
+
+#ingredients ul {
+  list-style: none;
+  width: 40%;
+  float: left;
+  font-size: 20px;
+}
+
+#ingredients ul li {
+  text-indent: -25px; 
+  color: gray;
+}
+
+#ing-list2 {
+  width: 50%;
+  float: right;
+}
+
+.crossed-off {
+  text-decoration: line-through;
+}
+
+.author-img {
+  float: left;
+  margin-right: 20px;
+}
+.author-name {
+  color: rgb(88, 88, 88); 
+  margin-bottom: 2px;
+  width: 70%;
+}
+.author-bio {
+  margin-top: 2px;
+  font-size: 20px;
+  color: grey;
+  width: 70%;
+}
+
+button {
+  height: 45px;
+  width: 150px;
+  color: #e6d8d8;
+  background-color: rgb(185, 64, 16) ;
+  font-size: 15px;
+  float: right;
+}
+footer{
+  text-align: center;
+}
